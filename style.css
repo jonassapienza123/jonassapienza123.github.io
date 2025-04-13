@@ -41,3 +41,16 @@ p {
     width: 230px;
     height: auto;
 }
+
+.three-boxes {
+    display: flex;                
+    justify-content: space-between; 
+    gap: 20px;                    
+  }
+.box {
+    background-color: #37003C;       
+    color: #a773d5;                  
+    padding: 20px;                
+    border-radius: 10px;          
+    width: calc(33.33% - 20px); 
+}
