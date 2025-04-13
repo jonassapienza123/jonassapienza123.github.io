@@ -1,5 +1,5 @@
 body {
-    background-color: #222222;
+    background: linear-gradient(135deg, #2e003e, #0e0016); /* tumma liilasta vielä tummempaan */
     color: #CCCCCC;
 }
 
