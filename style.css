@@ -52,7 +52,7 @@ p {
 
 .three-boxes {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
     padding: 0 60px;
 }
@@ -62,8 +62,12 @@ p {
     color: #a773d5;
     padding: 20px;
     border-radius: 10px;
-    width: 200px; /* voit säätää tarpeen mukaan */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 250px;
 }
 .box:hover {
     transform: scale(1.10); /*makes it bigger */
@@ -86,6 +90,8 @@ p {
 .box-link {
     text-decoration: none;
     color: inherit;
-    display: block;
+    flex; 1;
+    display: flex;
+    
   }
   
