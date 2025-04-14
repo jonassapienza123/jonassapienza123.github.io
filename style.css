@@ -62,8 +62,7 @@ p {
     color: #a773d5;
     padding: 20px;
     border-radius: 10px;
-    flex: 1;
-    max-width: 400px; /* voit säätää tarpeen mukaan */
+    width 300px; /* voit säätää tarpeen mukaan */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .box:hover {
