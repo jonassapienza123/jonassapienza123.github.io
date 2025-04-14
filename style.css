@@ -40,12 +40,17 @@ p {
 .playerbanner img {
     width: 180px;               
     height: auto;
-    
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .playerbanner img.wide {
     width: 230px;
     height: auto;
 }
+.playerbanner img:hover {
+    transform: scale(1.10); /* kuva suurenee hieman */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* pieni varjo */
+  }
 
 .three-boxes {
     display: flex;                
