@@ -59,7 +59,7 @@ p {
   
 .box {
     width: 280px;            /* sama leveys kuin alla olevassa tekstissä */
-    min-height: 250px;
+    min-height: 200px;
     background-color: #37003C;
     color: #a773d5;
     padding: 20px;
