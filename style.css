@@ -52,23 +52,20 @@ p {
 
 .three-boxes {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 0 60px;
-}
-
+    justify-content: center; /* keskittää boksit */
+    gap: 40px;               /* tilaa boksien väliin */
+    padding: 0 40px;
+  }
+  
 .box {
+    width: 280px;            /* sama leveys kuin alla olevassa tekstissä */
+    min-height: 250px;
     background-color: #37003C;
     color: #a773d5;
     padding: 20px;
     border-radius: 10px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    min-height: 250px;
-}
+  }
 .box:hover {
     transform: scale(1.10); /*makes it bigger */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* shadow */
@@ -76,13 +73,13 @@ p {
 
 .box-note {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
     margin-top: 10px;
     padding: 0 40px;
   }
 .box-note p {
-    width: calc(33.33% - 20px);
+    width: 280px;
     text-align: center;
     font-size: 20px;
     color: #ccc;
