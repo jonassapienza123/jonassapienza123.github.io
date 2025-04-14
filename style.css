@@ -66,3 +66,9 @@ p {
     transform: scale(1.10); /*makes it bigger */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* shadow */
   }
+.box-note {
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: #aaa;
+  }
