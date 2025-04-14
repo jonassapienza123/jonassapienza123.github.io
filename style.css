@@ -51,18 +51,19 @@ p {
 
 
 .three-boxes {
-    display: flex;                
-    justify-content: space-evenly;  /* Tasaa tilan tasaisesti boksien väliin */
-    gap: 20px; 
-    padding-left: 60px;
-    padding-right: 60px;   
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 60px;
 }
+
 .box {
-    background-color: #37003C;       
-    color: #a773d5;                  
-    padding: 20px;                
-    border-radius: 10px;          
-    width: calc(33.33% - 20px); 
+    background-color: #37003C;
+    color: #a773d5;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    max-width: 400px; /* voit säätää tarpeen mukaan */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .box:hover {
