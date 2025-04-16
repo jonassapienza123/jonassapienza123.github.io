@@ -92,15 +92,15 @@ p {
   }
   
 .active-box {
-    background-color: #5a005f;  
-    color: #ffffff;
+    background-color: #37003C;  /* same as other boxes */
+    color: #a773d5;             /* same as other boxes */
     cursor: default;
-    transform: none;
-    box-shadow: none;
+    transform: none; 
+    box-shadow: none; 
     pointer-events: none; /* prevents clicking */
-  }
-  
+}
+
 .active-box:hover { 
     transform: none;
     box-shadow: none;
-  }
+}
