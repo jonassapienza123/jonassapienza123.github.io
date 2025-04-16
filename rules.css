@@ -50,13 +50,13 @@ p {
 }
 .three-boxes {
     display: flex;
-    justify-content: center; /* keskittää boksit */
-    gap: 40px;               /* tilaa boksien väliin */
+    justify-content: center; 
+    gap: 40px;               
     padding: 0 40px;
   }
   
 .box {
-    width: 280px;            /* sama leveys kuin alla olevassa tekstissä */
+    width: 280px;            
     min-height: 200px;
     background-color: #37003C;
     color: #a773d5;
@@ -82,12 +82,7 @@ p {
     margin-top: 10px;
     width: 280px;
   }
-.box-note p {
-    width: 280px;
-    text-align: center;
-    font-size: 20px;
-    color: #ccc;
-  }
+
 .box-link {
     text-decoration: none;
     color: inherit;
@@ -97,7 +92,7 @@ p {
   }
   
 .active-box {
-    background-color: #5a005f;  /* lighter violet for usability */
+    background-color: #5a005f;  
     color: #ffffff;
     cursor: default;
     transform: none;
