@@ -103,3 +103,27 @@ p {
     transform: none;
     box-shadow: none;
 }
+.rules-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #37003C;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.rule-section {
+  margin-bottom: 30px;
+}
+
+.rule-section h2 {
+  color: #a773d5;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.rule-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ddd;
+}
