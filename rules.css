@@ -112,13 +112,25 @@ p {
   margin: 0 auto;
 }
 
+.rule-row {
+  display: flex;
+  align-items: stretch;
+}
+
 .rule-section {
   background-color: #3F364D;
-  border-radius: 16px;
+  border-radius: 16px 0 0 16px;
   padding: 32px;
+  flex: 1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-  
 }
+
+.rule-image-outside {
+  width: 120px; 
+  object-fit: cover;
+  border-radius: 0 16px 16px 0;
+}
+
 .rule-section h2 {
   color: #a773d5;
   font-size: 24px;
