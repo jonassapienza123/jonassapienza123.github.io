@@ -124,12 +124,13 @@ p {
   max-width: 350px;
   padding: 32px;
   flex: 1;
+  box-sizing: border-box;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .rule-image-outside {
     height: 350px;
-    width: 350px; /* or max-width: 350px; if you want to allow it to shrink */
+    width: 350px; 
     object-fit: cover;
     border-radius: 0 16px 16px 0;
   
