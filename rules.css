@@ -131,7 +131,7 @@ p {
 .rule-image-outside {
     height: 350px;
     width: 350px; 
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 0 16px 16px 0;
   
 }
