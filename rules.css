@@ -120,13 +120,15 @@ p {
 .rule-section {
   background-color: #3F364D;
   border-radius: 16px 0 0 16px;
+  min-height: 200px;
   padding: 32px;
   flex: 1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .rule-image-outside {
-  width: 120px; 
+  width: 120px;
+  height: 100%; 
   object-fit: cover;
   border-radius: 0 16px 16px 0;
 }
