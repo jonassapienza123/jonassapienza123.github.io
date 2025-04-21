@@ -120,7 +120,7 @@ p {
 .rule-section {
   background-color: #3F364D;
   border-radius: 16px 0 0 16px;
-  min-height: 350px;
+  height: 350px;
   max-width: 350px;
   padding: 32px;
   flex: 1;
@@ -128,11 +128,11 @@ p {
 }
 
 .rule-image-outside {
-  width: 120px;
-  height: 100%; 
-  object-fit: cover;
-  border-radius: 0 16px 16px 0;
-  align-self: stretch;
+    height: 350px;
+    width: 350px; /* or max-width: 350px; if you want to allow it to shrink */
+    object-fit: cover;
+    border-radius: 0 16px 16px 0;
+  
 }
 
 .rule-section h2 {
