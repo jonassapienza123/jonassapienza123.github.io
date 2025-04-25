@@ -96,7 +96,7 @@ p {
     cursor: default;
     transform: none; 
     box-shadow: none; 
-    pointer-events: none; /* prevents clicking */
+    pointer-events: none; 
 }
 
 .active-box:hover { 
