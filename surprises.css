@@ -105,8 +105,8 @@ p {
 }
 .player-section {
     
-    width: 80%; 
-    max-width: 900px;
+    width: 95%; 
+    max-width: 1200px;
     background-color: #3F364D;
     border-radius: 16px;
     height: 350px;
