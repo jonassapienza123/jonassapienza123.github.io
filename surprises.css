@@ -1,4 +1,4 @@
-ody {
+body {
     background: #222222;
     color: #CCCCCC;
 }
@@ -104,8 +104,11 @@ p {
     box-shadow: none;
 }
 .player-section {
+    
+    width: 80%; 
+    max-width: 900px;
     background-color: #3F364D;
-    border-radius: 16px 0 0 16px;
+    border-radius: 16px;
     height: 350px;
     max-width: 350px;
     padding: 32px;
