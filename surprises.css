@@ -103,22 +103,30 @@ p {
     transform: none;
     box-shadow: none;
 }
-.player-section {
-    
-    width: 95%; 
-    max-width: 1200px;
-    background-color: #3F364D;
-    border-radius: 16px;
-    height: 350px;
-    max-width: 350px;
-    padding: 32px;
-    flex: 1;
-    box-sizing: border-box;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-}
 .player-container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding: 24px;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.player-section {
+  width: 66%; /* 2/3 of the page */
+  background-color: #3F364D; /* your preferred purple */
+  color: white;
+  border-radius: 20px;
+  padding: 30px;
+  margin-bottom: 5cm; /* ~5cm spacing between boxes */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  font-family: 'Noto Serif', serif;
+  line-height: 1.6;
+}
+
+.player-section h3 {
+  margin-top: 0;
+  color: #ffffff;
+}
+
+.player-section p {
+  margin: 0;
 }
