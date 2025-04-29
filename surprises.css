@@ -1,4 +1,4 @@
-body {
+ody {
     background: #222222;
     color: #CCCCCC;
 }
@@ -103,48 +103,21 @@ p {
     transform: none;
     box-shadow: none;
 }
-.rules-container {
+.player-section {
+    background-color: #3F364D;
+    border-radius: 16px 0 0 16px;
+    height: 350px;
+    max-width: 350px;
+    padding: 32px;
+    flex: 1;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+.player-container {
   display: flex;
   flex-direction: column;
   gap: 24px;
   padding: 32px;
   max-width: 1000px;
   margin: 0 auto;
-}
-
-.rule-row {
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-}
-
-.rule-section {
-  background-color: #3F364D;
-  border-radius: 16px 0 0 16px;
-  height: 350px;
-  max-width: 350px;
-  padding: 32px;
-  flex: 1;
-  box-sizing: border-box;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-}
-
-.rule-image-outside {
-    height: 350px;
-    width: 350px; 
-    object-fit: contain;
-    border-radius: 0 16px 16px 0;
-  
-}
-
-.rule-section h3 {
-  color: #a773d5;
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.rule-section p {
-  font-size: 18px;
-  line-height: 1.6;
-  color: #ddd;
 }
