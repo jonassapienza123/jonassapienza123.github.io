@@ -116,7 +116,7 @@ p {
   color: white;
   border-radius: 20px;
   padding: 30px;
-  margin-bottom: 5cm; /* ~5cm spacing between boxes */
+  margin-bottom: 2cm; /* ~5cm spacing between boxes */
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   font-family: 'Noto Serif', serif;
   line-height: 1.6;
@@ -129,4 +129,21 @@ p {
 
 .player-section p {
   margin: 0;
+}
+.player-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.player-text {
+  flex: 2;
+}
+
+.player-image {
+  flex: 1;
+  max-width: 200px;
+  border-radius: 12px;
+  object-fit: cover;
 }
