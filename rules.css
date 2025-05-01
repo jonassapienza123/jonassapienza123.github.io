@@ -2,6 +2,27 @@ body {
     background: #222222;
     color: #CCCCCC;
 }
+.site-header {
+  display: flex;
+  justify-content: center;    
+  align-items: center;        
+  position: relative;         
+  padding: 20px 40px;
+}
+
+.site-title {
+  margin: 0;
+  font-family: 'Noto Serif', serif;
+  font-size: 2em;
+}
+
+.site-logo {
+  position: absolute;         
+  top: 20px;                  
+  right: 40px;                
+  height: 100px;               
+  width: auto;
+}
 
 h1 {
     text-align: center;
