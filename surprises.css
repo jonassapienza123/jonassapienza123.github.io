@@ -112,7 +112,7 @@ p {
 }
 
 .player-section {
-  width: 75%; /* 2/3 of the page */
+  width: 66%; /* 2/3 of the page */
   background-color: #3F364D; /* your preferred purple */
   color: white;
   border-radius: 20px;
