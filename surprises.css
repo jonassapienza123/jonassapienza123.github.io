@@ -117,7 +117,7 @@ p {
   color: white;
   border-radius: 20px;
   padding: 30px;
-  margin-bottom: 2cm; /* ~5cm spacing between boxes */
+  margin-bottom: 2cm; 
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
   font-family: 'Noto Serif', serif;
   line-height: 1.6;
