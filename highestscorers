@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>FPL Zone</title> 
+  
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="surprises.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-content">
+      <h1 class="site-title">Top 5 Highest Scorers in FPL History.</h1>
+      <img src="FPLZonelogo.png" alt="Site Logo" class="site-logo">
+    </div>
+  </header>
+    <div class="playerbanner">
+        <img src="mohamedsalah.png" alt="Salah">
+        <img src="kaneclear.png"    alt="Kane">
+        <img src="henry1.png"       alt="Henry">
+        <img src="hazard1.png"      alt="Hazard" class= "wide"> <!-- makes him wide -->
+        <img src="rooneyclear.png"  alt="Rooney">
+        <img src="toure1.png"       alt="Toure" class = "wide"> <!-- makes him wide -->
+    </div>
+    <hr>
+    <h2 style="text-align: center; font-family: 'Noto Serif', serif;">
+      Back to home page.
+    </h2>
+    
+    <nav class="three-boxes">
+      <a href="rules.html" class="box-link">
+        <div class="box">
+          <h3>How to Play (Rules)&#10068;</h3>
+          <p>A beginner-friendly guide that explains how to build your team, score points, and use special
+            features like chips and transfers.</p>
+        </div>
+      </a>
+      
+      <a href="surprises.html" class="box-link">
+        <div class="box">
+          <h3>Biggest Surprises in FPL History&#128064;</h3>
+          <p>A fun look back at shocking moments and unexpected star players from past FPL seasons.</p>
+        </div>
+      </a>
+    
+      <div class="box active-box"></div>
+        <div class="box">
+          <h3>Historical Best Performers&#129321;</h3>
+          <p>
+            You're currently here!
+          </p>
+        </div>
+      
+    </nav>
+<h2 style = "text-align: center; font-family: 'Noto Serif', serif;">Biggest surprises in FPL History  </h2>
+<p style="text-align: center; font-family: 'Noto Serif', serif;">
+  On this page, you’ll find some of the biggest surprises in Fantasy Premier League history — players who started the 
+  season with low expectations or budget-friendly prices, but went on to deliver exceptional performances and become FPL legends.
+</p> 

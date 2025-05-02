@@ -112,7 +112,7 @@ p {
   }
   
 .active-box {
-    background-color: #37003C;  /* same as other boxes */
+    background-color: #b1afb1;  /* same as other boxes */
     color: #a773d5;             /* same as other boxes */
     cursor: default;
     transform: none; 
