@@ -16,7 +16,8 @@
       <img src="FPLZonelogo.png" alt="Site Logo" class="site-logo">
     </div>
   </header>
-    <div class="playerbanner">
+    
+  <div class="playerbanner">
         <img src="mohamedsalah.png" alt="Salah">
         <img src="kaneclear.png"    alt="Kane">
         <img src="henry1.png"       alt="Henry">
@@ -56,6 +57,7 @@
     </nav>
 <h2 style = "text-align: center; font-family: 'Noto Serif', serif;">Biggest surprises in FPL History  </h2>
 <p style="text-align: center; font-family: 'Noto Serif', serif;">
-  On this page, you’ll find some of the biggest surprises in Fantasy Premier League history — players who started the 
-  season with low expectations or budget-friendly prices, but went on to deliver exceptional performances and become FPL legends.
+    On this page, you'll discover the most prolific point-scorers in Fantasy Premier League history — elite
+     players who delivered season after season with unmatched consistency, racking up record-breaking totals
+      and cementing their legacy as FPL greats.
 </p> 
