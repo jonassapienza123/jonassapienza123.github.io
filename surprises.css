@@ -174,9 +174,13 @@ p {
   flex-shrink: 0; 
 }
 
+
 .clean-list {
-  list-style-type: disc;
-  padding-left: 1.5em;
-  margin-bottom: 1em;
+  list-style-type: disc; /* or none */
+  padding-left: 1.5rem;
+  margin: 0.5rem 0;
   font-family: 'Noto Serif', serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000; /* Optional for consistent color */
 }
