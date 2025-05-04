@@ -112,8 +112,8 @@ p {
   }
   
 .active-box {
-    background-color: #b1afb1;  /* same as other boxes */
-    color: #07000e;             /* same as other boxes */
+    background-color: #b1afb1;  
+    color: #07000e;             
     cursor: default;
     transform: none; 
     box-shadow: none; 
@@ -168,4 +168,30 @@ p {
   font-size: 18px;
   line-height: 1.6;
   color: #ddd;
+}
+
+/* Footer styles */
+.footer-nav {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-nav a {
+  
+  color: #f1f0f3; 
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 24px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  background-color: #555; /* Darker hover effect */
+}
+
+.footer-nav a:focus {
+  outline: none; /* Optional: remove focus outline */
 }
