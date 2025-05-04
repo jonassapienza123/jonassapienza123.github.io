@@ -190,14 +190,14 @@ p {
   width: 100%;
   text-align: center;
   padding: 20px 0;
-  margin-top: 30px; /* Add some space between the player section and navigation */
 }
 
 .footer-nav a {
-  color: #37003C; /* Same purple as the boxes */
+  
+  color: #3F364D; /* Same purple player section */
   text-decoration: none;
   margin: 0 15px;
-  font-size: 16px;
+  font-size: 24px;
   padding: 8px 16px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
