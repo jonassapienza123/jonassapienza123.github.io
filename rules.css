@@ -157,6 +157,10 @@ p {
     border-radius: 0 16px 16px 0;
   
 }
+.rule-image-fix {
+  object-fit: cover;
+}
+
 
 .rule-section h3 {
   color: #a773d5;
