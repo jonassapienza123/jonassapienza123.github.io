@@ -187,28 +187,26 @@ p {
 
 /* Footer styles */
 .footer-nav {
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  background-color: #333;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 0;
+  margin-top: 30px; /* Add some space between the player section and navigation */
 }
 
 .footer-nav a {
   color: #37003C; /* Same purple as the boxes */
   text-decoration: none;
   margin: 0 15px;
-  font-size: 14px;  
-  padding: 5px 10px;
+  font-size: 16px;
+  padding: 8px 16px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .footer-nav a:hover {
-  background-color: #555;  /* Darker hover effect */
+  background-color: #555; /* Darker hover effect */
 }
 
 .footer-nav a:focus {
-  outline: none;  
+  outline: none; /* Optional: remove focus outline */
 }
