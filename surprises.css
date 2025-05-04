@@ -46,7 +46,7 @@ p {
     line-height: 1.6;
   }
 .intro {
-    padding-left: 60px;
+  padding-left: 60px;
   padding-right: 60px;
   text-align: center;
       }
@@ -63,7 +63,7 @@ p {
     width: 180px;               
     height: auto;
     border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 .playerbanner img.wide {
     width: 230px;
