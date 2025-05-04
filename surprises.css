@@ -2,7 +2,7 @@ body {
     background: #222222;
     color: #CCCCCC;
 }
-.site-header {
+.site-header { /* header to the center, logo to the right */
   display: flex;
   justify-content: center;    
   align-items: center;        
@@ -17,7 +17,7 @@ body {
 }
 
 .site-logo {
-  position: absolute;         
+  position: absolute;  /* positioned to the top right of the page*/       
   top: 20px;                  
   right: 40px;                
   height: 100px;               
@@ -54,7 +54,7 @@ p {
 
 .playerbanner {
     display: flex;              
-    justify-content: space-between;
+    justify-content: space-between; /* Space between players */
     gap: 10px;                  
     margin-top: 50px;
     
@@ -65,7 +65,7 @@ p {
     border-radius: 10px;
     
 }
-.playerbanner img.wide {
+.playerbanner img.wide { /* wider image */
     width: 230px;
     height: auto;
 }
@@ -79,10 +79,10 @@ p {
 .box {
     width: 280px;            
     min-height: 200px;
-    background-color: #37003C;
+    background-color: #37003C; /* FPL purple */
     color: #a773d5;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 10px; /* rounder edges */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 .box:hover {
@@ -105,15 +105,15 @@ p {
   }
 
 .box-link {
-    text-decoration: none;
+    text-decoration: none; 
     color: inherit;
     display: inline-block;
     
   }
   
 .active-box {
-    background-color: #b1afb1;  /* same as other boxes */
-    color: #07000c;             /* same as other boxes */
+    background-color: #b1afb1;  /* different to other boxes */
+    color: #07000c;             /* different to other boxes */
     cursor: default;
     transform: none; 
     box-shadow: none; 
@@ -121,7 +121,7 @@ p {
 }
 
 .active-box:hover { 
-    transform: none;
+    transform: none; /* no hover or shadow */
     box-shadow: none;
 }
 .player-container {
@@ -134,9 +134,9 @@ p {
 
 .player-section {
   width: 66%; /* 2/3 of the page */
-  background-color: #3F364D; /* your preferred purple */
+  background-color: #3F364D; /* FPL purple */
   color: white;
-  border-radius: 20px;
+  border-radius: 20px; /* makes edges rounder */
   padding: 30px;
   margin-bottom: 2cm; 
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
@@ -176,13 +176,39 @@ p {
 
 
 .clean-list {
-  list-style-type: disc; /* or none */
-  padding-left: 1.5rem;
+  padding-left: 0; 
   margin: 0.5rem 0;
-  font-family: 'Noto Serif', serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #EAEAEA; 
+  font-family: 'Crimson Text', serif; 
+  font-size: 18px;
+  line-height: 1.6; 
+  color: #EAEAEA;
+}
   
 
+/* Footer styles */
+.footer-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-nav a {
+  color: #37003C; /* Same purple as the boxes */
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;  
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  background-color: #555;  /* Darker hover effect */
+}
+
+.footer-nav a:focus {
+  outline: none;  
 }
