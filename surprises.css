@@ -173,3 +173,10 @@ p {
 .player-video {
   flex-shrink: 0; 
 }
+
+.clean-list {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+  font-family: 'Noto Serif', serif;
+}
