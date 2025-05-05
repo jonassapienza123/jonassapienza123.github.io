@@ -1,12 +1,17 @@
+
+
 body {
-    background: #222222;
-    color: #CCCCCC;
+  background: #222222; 
+  color: #CCCCCC;      
 }
+
+/* Header  */
+
 .site-header {
   display: flex;
-  justify-content: center;    
-  align-items: center;        
-  position: relative;         
+  justify-content: center;   
+  align-items: center;       /* center content vertically */
+  position: relative;        /* enable logo position */
   padding: 20px 40px;
 }
 
@@ -17,103 +22,110 @@ body {
 }
 
 .site-logo {
-  position: absolute;         
-  top: 20px;                  
-  right: 40px;                
-  height: 100px;               
-  width: auto;
+  position: absolute;        /* logo positoned top right of page */
+  top: 20px;
+  right: 40px;
+  height: 100px;
+  width: auto;               /* maintain height width ratio */
 }
 
-h1 {
-    text-align: center;
-    font-family: 'Noto Serif', serif;
-    font-size: 32px;
-    font-weight: bold;
-    color: #FFFFFF;
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
-h3 {
-    font-family: 'Noto Serif', serif;
-    font-weight: bold;
+/* Headings and Paragraphs */
 
+h1 {
+  text-align: center;
+  font-family: 'Noto Serif', serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
 }
 
 p {
-    font-family: 'Crimson Text', serif;
-    font-size: 18px;
-    color: #EAEAEA ;
-    line-height: 1.6;
-  }
-.intro {
-    padding-left: 60px;
-    padding-right: 60px;
-    text-align: center;
-      }
+  font-family: 'Crimson Text', serif;
+  font-size: 18px;
+  color: #EAEAEA;
+  line-height: 1.6;          /* improves readability */
+}
 
+.intro {
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+}
+
+/* Player Banner */
 
 .playerbanner {
-    display: flex;              
-    justify-content: space-between;
-    gap: 10px;                  
-    margin-top: 50px;
+  display: flex;
+  justify-content: space-between; /* even spacing between player images */
+  gap: 10px;                      /* small space between each image */
+  margin-top: 50px;
 }
+
 .playerbanner img {
-    width: 180px;               
-    height: auto;
-    border-radius: 10px;
-    
+  width: 180px;
+  height: auto;
+  border-radius: 10px;           /* rounded corners */
 }
+
 .playerbanner img.wide {
-    width: 230px;
-    height: auto;
+  width: 230px;                  /* Wider version for some players */
+  height: auto;
 }
 
-
+/* Navigation Boxes Section */
 
 .three-boxes {
-    display: flex;
-    justify-content: center; /* keskittää boksit */
-    gap: 40px;               /* tilaa boksien väliin */
-    padding: 0 40px;
-  }
-  
+  display: flex;
+  justify-content: center;       /* boxes centered */
+  gap: 40px;                     /* space between each box */
+  padding: 0 40px;
+}
+
 .box {
-    width: 280px;            /* sama leveys kuin alla olevassa tekstissä */
-    min-height: 200px;
-    background-color: #37003C;
-    color: #a773d5;
-    padding: 20px;
-    border-radius: 10px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
+  width: 280px;
+  min-height: 200px;
+  background-color: #37003C;     /* Purple background */
+  color: #a773d5;                /* Light purple text */
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 .box:hover {
-    transform: scale(1.10); /*makes it bigger */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* shadow */
-  }
+  transform: scale(1.10);        /* Slight zoom effect on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Drop shadow on hover */
+}
 
 .box-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;           /* Center note text under each box */
+}
+
 .box-note {
-    font-size: 18px;
-    color: #ccc;
-    text-align: center;
-    margin-top: 10px;
-    width: 280px;
-  }
+  font-size: 18px;
+  color: #ccc;
+  text-align: center;
+  margin-top: 10px;
+  width: 280px;
+}
 
 .box-link {
-    text-decoration: none;
-    color: inherit;
-    flex: 1;
-    display: flex;
-    
-  }
-/* Footer styles */
+  text-decoration: none;         /* Remove underline from links */
+  color: inherit;                /* Inherit text color */
+  flex: 1;
+  display: flex;
+}
+
+/* Footer Navigation */
+
 .footer-nav {
   width: 100%;
   text-align: center;
@@ -121,8 +133,7 @@ p {
 }
 
 .footer-nav a {
-  
-  color: #f1f0f3; 
+  color: #f1f0f3;
   text-decoration: none;
   margin: 0 15px;
   font-size: 24px;
@@ -132,9 +143,9 @@ p {
 }
 
 .footer-nav a:hover {
-  background-color: #555; /* Darker hover effect */
+  background-color: #555;        /* Darker background on hover */
 }
 
 .footer-nav a:focus {
-  outline: none; /* Optional: remove focus outline */
+  outline: none;                 /* Remove default focus outline */
 }
