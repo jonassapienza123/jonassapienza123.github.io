@@ -51,7 +51,9 @@ p {
   color: #EAEAEA;
   line-height: 1.6;
 }
-
+hr {
+  margin: 0; /* Remove default margin */
+}
 /* Introduction section */
 .intro {
   padding-left: 60px;
