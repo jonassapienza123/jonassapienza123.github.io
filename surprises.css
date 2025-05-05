@@ -64,21 +64,22 @@ p {
         border: none;
         border-radius: 10px;
         font-family: 'Noto Serif', serif;
+        font-weight: bold; 
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         display: inline-block;
         margin-top: 40px;
       }
       
 .home-button:hover {
-        transform: scale(1.08);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.08);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
       }
 
 .playerbanner {
-    display: flex;              
-    justify-content: space-between; /* Space between players */
-    gap: 10px;                  
-    margin-top: 50px;
+  display: flex;              
+  justify-content: space-between; /* Space between players */
+  gap: 10px;                  
+  margin-top: 50px;
     
 }
 .playerbanner img {
@@ -230,5 +231,5 @@ p {
 }
 
 .footer-nav a:focus {
-  outline: none; /* Optional: remove focus outline */
+  outline: none; 
 }
