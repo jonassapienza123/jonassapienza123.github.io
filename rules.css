@@ -142,7 +142,7 @@ p {
 .rule-section {
   background-color: #3F364D;
   border-radius: 16px 0 0 16px;
-  height: 350px;
+  height: auto;
   max-width: 350px;
   padding: 32px;
   flex: 1;
