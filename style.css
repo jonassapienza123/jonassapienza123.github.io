@@ -53,6 +53,10 @@ p {
   line-height: 1.6;          /* improves readability */
 }
 
+hr {
+  margin: 0; /* remove space between banner and hr */
+}
+
 .intro {
   padding-left: 60px;
   padding-right: 60px;

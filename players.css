@@ -51,9 +51,11 @@ p {
   color: #EAEAEA;
   line-height: 1.6;
 }
+
 hr {
-  margin: 0; /* Remove default margin */
+  margin: 0; /* remove space between banner and hr */
 }
+
 /* Introduction section */
 .intro {
   padding-left: 60px;
