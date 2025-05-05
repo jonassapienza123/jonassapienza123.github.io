@@ -51,7 +51,28 @@ p {
   text-align: center;
       }
 
-
+.home-button-wrapper {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+.home-button {
+        background-color: #37003C;
+        color: #a773d5;
+        padding: 12px 24px;
+        font-size: 20px;
+        text-decoration: none;
+        border: none;
+        border-radius: 10px;
+        font-family: 'Noto Serif', serif;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: inline-block;
+      }
+      
+.home-button:hover {
+        transform: scale(1.08);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+      }
 .playerbanner {
     display: flex;              
     justify-content: space-between;
